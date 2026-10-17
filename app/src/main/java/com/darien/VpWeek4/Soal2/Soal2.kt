@@ -48,7 +48,7 @@ import com.darien.myapplication.R
 enum class Hero(
     val displayName: String, val role: String, val roleColor: Color, val tier: String, val lvl: Int, val power: Int, val health: Int, val maxHealth: Int, val mana: Int, val maxMana: Int, val attack: Int, val defense: Int, val critRate: String, val speed: Int, val abilityName: String, val abilityDesc: String, val portrait: Int, val archetype: String, val isDeployed: Boolean = false
 ) {
-    ALISTAIR(
+    YANTO(
         "Yanto", "High Templar", Color(0xFFFFB300), "MYTHIC", 50, 5600,
         1720, 1900, 580, 750, 380, 540, "22%", 105,
         "Wrath of the Heavens",
@@ -57,7 +57,7 @@ enum class Hero(
         "Paladin",
         isDeployed = true
     ),
-    THERESA(
+    SITI(
         "Juminten", "Divine Oracle", Color(0xFF00C853), "MYTHIC", 49, 5480,
         980, 1150, 1950, 2300, 210, 320, "12%", 98,
         "Hymn of Renewal",
@@ -65,7 +65,7 @@ enum class Hero(
         R.drawable.cleric,
         "Cleric"
     ),
-    VESPERA(
+    SUJATMOKO(
         "Reynaldo", "Shadowblade", Color(0xFFD500F9), "MYTHIC", 48, 5350,
         810, 920, 460, 640, 460, 210, "41%", 140,
         "Umbral Strike",
@@ -82,7 +82,7 @@ enum class Hero(
         "Archmage",
         isDeployed = true
     ),
-    KAEL(
+    MARIADI(
         "Kusno", "Berserker", Color(0xFFFF5C7A), "LEGENDARY", 45, 4300,
         1320, 1450, 260, 450, 500, 260, "30%", 120,
         "Blood Fury",
@@ -99,7 +99,7 @@ enum class Hero(
         R.drawable.paladin,
         "Paladin"
     ),
-    LUCIEN(
+    SUTRISNO(
         "Lucien", "Dawn Guardian", Color(0xFFFFB300), "MYTHIC", 38, 4000,
         1180, 1300, 310, 480, 300, 410, "15%", 90,
         "Aegis of Dawn",
@@ -123,7 +123,7 @@ enum class Hero(
         R.drawable.archmage,
         "Archmage"
     ),
-    ZEPHYROS(
+    SUMANTO(
         "Bayu", "Storm Caller", Color(0xFF00E5FF), "LEGENDARY", 38, 3950,
         450, 560, 1420, 1650, 380, 150, "20%", 104,
         "Tempest Chain",
@@ -139,7 +139,7 @@ enum class Hero(
         R.drawable.rogue,
         "Rogue"
     ),
-    RAVEN(
+    KENJO(
         "Timothy", "Phantom Thief", Color(0xFFD500F9), "MYTHIC", 37, 3900,
         610, 690, 340, 470, 400, 160, "36%", 138,
         "Midnight Heist",
